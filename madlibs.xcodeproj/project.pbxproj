@@ -14,6 +14,8 @@
 		F902415A200FB29E008CFD5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9024158200FB29E008CFD5C /* LaunchScreen.storyboard */; };
 		F9024165200FB29E008CFD5C /* madlibsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9024164200FB29E008CFD5C /* madlibsTests.swift */; };
 		F9024170200FB29E008CFD5C /* madlibsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902416F200FB29E008CFD5C /* madlibsUITests.swift */; };
+		F902417E200FB4B7008CFD5C /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902417D200FB4B7008CFD5C /* EditViewController.swift */; };
+		F9024180200FC8F6008CFD5C /* submitButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902417F200FC8F6008CFD5C /* submitButtonDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F902416B200FB29E008CFD5C /* madlibsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = madlibsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F902416F200FB29E008CFD5C /* madlibsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = madlibsUITests.swift; sourceTree = "<group>"; };
 		F9024171200FB29E008CFD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F902417D200FB4B7008CFD5C /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		F902417F200FC8F6008CFD5C /* submitButtonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = submitButtonDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				F902414F200FB29E008CFD5C /* AppDelegate.swift */,
 				F9024151200FB29E008CFD5C /* ViewController.swift */,
 				F9024153200FB29E008CFD5C /* Main.storyboard */,
+				F902417D200FB4B7008CFD5C /* EditViewController.swift */,
+				F902417F200FC8F6008CFD5C /* submitButtonDelegate.swift */,
 				F9024156200FB29E008CFD5C /* Assets.xcassets */,
 				F9024158200FB29E008CFD5C /* LaunchScreen.storyboard */,
 				F902415B200FB29E008CFD5C /* Info.plist */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9024180200FC8F6008CFD5C /* submitButtonDelegate.swift in Sources */,
 				F9024152200FB29E008CFD5C /* ViewController.swift in Sources */,
 				F9024150200FB29E008CFD5C /* AppDelegate.swift in Sources */,
+				F902417E200FB4B7008CFD5C /* EditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
